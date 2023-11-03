@@ -32,4 +32,6 @@ int main(){
           printf("Child process received....:%s\n",buffer);
           close(pipefd[0]);//close the read end of the pipe
      }
+     return 0;
+}
                 
